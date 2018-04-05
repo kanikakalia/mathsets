@@ -1,0 +1,32 @@
+{
+  "name": "mathsets",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://kanikakalia.github.io/mathsets",
+  "dependencies": {
+    "mathsteps-test": "^1.0.2",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "styled-components": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.1",
+    "babili-webpack-plugin": "^0.1.2",
+    "clean-webpack-plugin": "^0.1.16",
+    "gh-pages": "^1.1.0",
+    "mathsteps": "^0.1.6",
+    "react-scripts": "1.0.6",
+    "webpack": "^3.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
